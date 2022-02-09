@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Inicio da estilização do Menu*/
+a{
+    text-decoration: none;
+    color: black;
+}
