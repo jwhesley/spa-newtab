@@ -4,13 +4,17 @@
 }
 body{
     width: 411px;
+    font-family: 'Lato';
 }
 
 .box-main{
     display: flex; 
+    height: 100vh;
 }
 .box-top{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: #E0E0E0;
     width: 411px;
     height: 60px;
@@ -19,7 +23,21 @@ body{
 .logo{
     width: 30px;
     height: 27.63px;
+    margin-left: 22px;
+    margin-top: 12px;
 }
+.text-menu{
+    font-size: 20px;
+    display: flex;
+    margin-top: 19px;
+    position: absolute;
+    margin-left: 128px;
+}
+.label-one{
+    margin-top: 8px;
+    margin-left: 282px;
+}
+
 /*Inicio da estilização do Menu, o objetivo foi esconder o menu apenas com css*/
 
 .menu{
@@ -39,20 +57,19 @@ input[type="checkbox"]{
 }
 
 nav{
-    ;
     background-color: #333333;
     width: 351px;
     height: 100%;
-    left: -600px;
+    left: -412px;
     position: relative; 
 }
 input[type="checkbox"]:checked ~ nav {
-    transform: translateX(351px);
+    transform: translateX(412px);
 }
 
 ul{
     position: absolute;
-    top: 100px;
+    top: 62px;
     width: 100%;
 }
 
@@ -73,4 +90,7 @@ label{
     padding: 10px;
     position: absolute;
     z-index: 1;
+    
 }
+
+
