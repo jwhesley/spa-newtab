@@ -11,11 +11,15 @@ body{
 }
 .box-top{
     display: flex;
-    margin-left: ;
+    background: #E0E0E0;
+    width: 411px;
+    height: 60px;
 }
 
-
-
+.logo{
+    width: 30px;
+    height: 27.63px;
+}
 /*Inicio da estilização do Menu, o objetivo foi esconder o menu apenas com css*/
 
 .menu{
