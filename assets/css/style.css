@@ -1,4 +1,4 @@
-*{
+*{ 
     padding: 0px;
     margin: 0px;
 }
@@ -7,8 +7,7 @@ body{
     font-family: 'Lato';
 }
 
-.box-main{
-    display: flex; 
+.box-main{ 
     height: 100vh;
 }
 .box-top{
@@ -31,11 +30,16 @@ body{
     display: flex;
     margin-top: 19px;
     position: absolute;
-    margin-left: 128px;
+    margin-left: 123px;
 }
 .label-one{
     margin-top: 8px;
     margin-left: 282px;
+}
+
+#img-menu{
+    margin-left: 12px;
+    margin-top: 19px;
 }
 
 /*Inicio da estilização do Menu, o objetivo foi esconder o menu apenas com css*/
@@ -62,6 +66,7 @@ nav{
     height: 100%;
     left: -412px;
     position: relative; 
+    margin-top: -46px;
 }
 input[type="checkbox"]:checked ~ nav {
     transform: translateX(412px);
@@ -86,11 +91,49 @@ a:hover{
     color: #333333;
 }
 
-label{
+.label.one{
     padding: 10px;
     position: absolute;
     z-index: 1;
     
 }
 
+.form-box{
+    width: 371px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+}
 
+#label-secundary{
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+#transaction, #merchandise, #price, #submit{
+    width: 371px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border-color: #979797;
+    background: none;
+    color: #979797;
+    border: 1px solid;
+}
+.label-two , .label-three{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.option{
+    font-size: 14px;
+    color: #979797;
+
+}
+
+#submit{
+    background: #333333;
+    color: #ffffff;
+    font-size: 14px;
+}
