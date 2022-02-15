@@ -210,3 +210,33 @@ th, td{
         height: 8px;
         background: #333333;
     }
+
+    @media (min-width:768px){
+       .box-main{
+           width: 768px;
+           height: 1024px;
+       }
+
+       .box-top{
+           width: 768px;
+           height: 60px;
+       }
+
+       nav{
+        width: 252px;
+        height: 1000px;
+        left: -1115px;
+       }
+
+       input[type="checkbox"]:checked ~ nav {
+        transform: translateX(1181px);
+    }
+    .text-menu{
+        size: 20px;
+        margin-left: 313px;
+    }
+
+    #img-menu{
+        margin-right: 20px;
+        margin-top: 19px;
+    }
