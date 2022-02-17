@@ -327,5 +327,47 @@ th, td{
     }
 
     /*Inicio da 3º parte com tabelas*/
-    
+ 
+    hr{
+        display: none;
+    }
+
+    #box-table{
+        position: relative;
+        bottom: 70px;
+    }
+
+    table{
+        width: 728px;
+        height: 281px;
+    }
+
+    .valor-1, .valor-2{
+        text-align: end;
+    }
+
+    .tr-alt{
+        height: 10px;
+    }
+    #none-line{
+        position: relative;
+        bottom: 45px;
+    }
+    .valor-2{
+        position: relative;
+        left: 0px;
+        top: -4px;
+    }
+    h1{
+        position: relative;
+        left: 27px;
+    }
+    .lucro{
+        position: relative;
+        bottom: 100px;
+        right: 3px;
+    }
+    .footer{
+        width: 100%;
+    }
 }
