@@ -69,10 +69,10 @@ nav{
     margin-top: -46px;
     z-index: 1;
 }
+
 input[type="checkbox"]:checked ~ nav {
     transform: translateX(412px);
 }
-
 ul{
     position: absolute;
     top: 62px;
@@ -370,4 +370,45 @@ th, td{
     .footer{
         width: 100%;
     }
+}
+
+/*Inicio do Responsivo tablet landscape*/
+
+@media (min-width:1112px){
+    .box-main{
+        width: 1112px;
+        height: 834px;
+    }
+    .box-top{
+        width: 1112px;
+        height: 80px;
+        background: #E0E0E0;
+    }
+    .logo-top{
+        position: relative;
+        left: 5px;
+        top: 9px;
+        width: 40px;
+        height: 37px;
+    }
+    .text-menu{
+        size: 20px;
+        margin-left: 80px;
+        margin-top: 28px;
+    }
+    
+    nav{
+        margin-top: -26px;
+        width: 350px;
+        height: 40px;
+        left: 0px;
+        margin-left: -35px;
+        background: #FFFFFF;
+    }
+    ul{
+
+    }
+
+    input[type="checkbox"]:checked ~ nav {
+        transform: translateX(0px);
 }
