@@ -206,7 +206,7 @@ th, td{
     font-size: 10px;
     }
     .footer{
-        margin-top: 20px;
+        margin-top: 300px;
         position: absolute;
         width: 411px;
         height: 8px;
@@ -398,17 +398,146 @@ th, td{
     }
     
     nav{
-        margin-top: -26px;
+        margin-top: 0px;
         width: 350px;
         height: 40px;
-        left: 0px;
-        margin-left: -35px;
+        left: -30px;
         background: #FFFFFF;
     }
     ul{
-
+        display: flex;
+        position: relative;
+        top: 0px;
+        left: -15px;
+        
     }
 
+    li{
+        
+        border-right: 1px solid #979797;
+    }
+
+    a{
+        padding: 0px;
+        display: flex;
+        text-align: center;
+        color: #333333;
+        font-size: 16px;
+    }
+    .three-li{
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    a:hover{
+        background: none;
+    }
+    
     input[type="checkbox"]:checked ~ nav {
         transform: translateX(0px);
+}
+
+#img-menu{
+    display: none;
+}
+
+/*Inicio da estilização do box-secundary*/
+
+.box-secundary{
+    width: 400px;
+    height: 344px;
+}
+
+.form-box{
+    position: relative;
+    width: 370.2px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    left: 10px;
+}
+
+#label-secundary{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+    position: relative;
+    left: -100px;
+    top: 30px;
+
+}
+
+#transaction{
+    position: absolute;
+    width: 370px;
+    height: 32px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 65px;
+}
+
+#label-two{
+    right: 116px;
+    top: 40px;
+    left: inherit;
+}
+
+#merchandise{
+    margin-right: 0px;
+    width: 370px;
+    height: 32px;
+    margin-left: 67px;
+    margin-top: 28px;   
+}
+
+#label-three{
+    font-size: 14px;
+    position: relative;
+    right: 130px;
+    bottom: 30px;;
+}
+
+#price{
+    width: 370px;
+    height: 32px;
+    margin-left: 0px;
+    margin-top: 0px;
+    left: 36px;
+    top: -38px;
+    position: relative;
+    font-size: 14px;
+}
+
+#submit{
+    left: -4px;
+    top: -50px;
+    width: 370px;
+}
+
+/*Inicio da 3ºparte com tabelas*/
+
+.table-one{
+    width: 652px;
+    height: 281px;
+    top: -405px;
+    left: 440px;
+    position: absolute;
+}
+
+table{
+    width: 652px;
+    height: 280px;
+}
+
+#none-line{
+    bottom: 25px;
+}
+.lucro{
+    bottom: 60px;
+    right: -38px;
+}
 }
