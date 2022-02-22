@@ -542,32 +542,3 @@ table{
     right: -38px;
 }
 }
-/*Inicio do responsivo do modo desktop*/
-
-@media (min-width:1500px){
-    .box-main{
-        width: 1500px;
-        height: 1000px;
-    }
-
-    .box-top{
-        width: 1500px;
-    }
-
-    .logo-top{
-        margin-left: 180px;
-    }
-    .text-menu{
-        margin-left: 260px;
-
-    }
-
-    nav{
-        left: -190px;
-    }
-    section{
-    position: relative;
-    left: 190px;
-}
-
-}
