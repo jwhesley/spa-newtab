@@ -1,16 +1,18 @@
-*{ 
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     width: 411px;
     font-family: 'Lato';
 }
 
-.box-main{ 
+.box-main {
     height: 100vh;
 }
-.box-top{
+
+.box-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,101 +21,111 @@ body{
     height: 60px;
 }
 
-.logo{
+.logo {
     width: 30px;
     height: 27.63px;
     margin-left: 22px;
     margin-top: 12px;
 }
-.text-menu{
+
+.text-menu {
     font-size: 20px;
     display: flex;
     margin-top: 19px;
     position: absolute;
     margin-left: 123px;
 }
-.label-one{
+
+.label-one {
     margin-top: 8px;
     margin-left: 282px;
 }
 
-#img-menu{
+#img-menu {
     margin-left: 12px;
     margin-top: 19px;
 }
 
 /*Inicio da estilização do Menu, o objetivo foi esconder o menu apenas com css*/
 
-.menu{
+.menu {
     height: 100vh;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     display: none;
 }
 
-nav{
+nav {
     background-color: #333333;
     width: 351px;
     height: 100%;
     left: -412px;
-    position: relative; 
+    position: relative;
     margin-top: -46px;
     z-index: 1;
 }
 
-input[type="checkbox"]:checked ~ nav {
+input[type="checkbox"]:checked~nav {
     transform: translateX(412px);
 }
-ul{
+
+ul {
     position: absolute;
     top: 62px;
     width: 100%;
 }
 
-a{
+a {
     padding: 10px;
     display: block;
     text-align: end;
     color: white;
     font-size: 16px;
-      
+
 }
-a:hover{
+
+a:hover {
     background-color: #c4c4c4;
     color: #333333;
 }
 
-.label.one{
+.label.one {
     padding: 10px;
     position: absolute;
     z-index: 1;
-    
+
 }
-.text-form{
+
+.text-form {
     display: none;
 }
-.form-box{
+
+.form-box {
     width: 371px;
     height: 290px;
     display: flex;
     flex-direction: column;
 }
 
-#label-secundary{
+#label-secundary {
     margin-top: 14px;
     margin-left: 20px;
 }
 
-#transaction, #merchandise, #price, #submit{
+#transaction,
+#merchandise,
+#price,
+#submit {
     width: 371px;
     height: 32px;
     margin-left: 20px;
@@ -124,18 +136,20 @@ a:hover{
     color: #979797;
     border: 1px solid;
 }
-#label-two , #label-three{
+
+#label-two,
+#label-three {
     margin-left: 20px;
     margin-top: 5px;
 }
 
-.option{
+.option {
     font-size: 14px;
     color: #979797;
 
 }
 
-#submit{
+#submit {
     background: #333333;
     color: #ffffff;
     font-size: 14px;
@@ -143,25 +157,25 @@ a:hover{
 
 /*Inicio da 3º parte com tabelas*/
 
-hr{
+hr {
     width: 371px;
     margin-left: 20px;
     margin-top: 28px;
 }
 
-.table-one{
+.table-one {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-h1{
+h1 {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-table{
+table {
     margin-left: 25px;
     width: 371px;
     border-collapse: collapse;
@@ -169,87 +183,98 @@ table{
     line-height: 2.5;
 }
 
-th{
+th {
     font-size: 14px;
     text-align: justify;
     position: relative;
-    left: 10px; 
+    left: 10px;
 }
-tr{
+
+tr {
     text-align: justify;
 }
-.price, .total{
+
+.price,
+.total {
     text-align: end;
 }
 
-th, td{  
+th,
+td {
     border-bottom: thin solid #979797;
 }
-.valor-1{
+
+.valor-1 {
     text-align: center;
     position: relative;
     padding-right: 12px;
-    }
+}
 
-.none-line, .valor-2{
+.none-line,
+.valor-2 {
     border-bottom: none;
 }
-.border-double{
+
+.border-double {
     border-bottom: double;
     border-color: #979797;
 }
-.lucro{
+
+.lucro {
     margin-top: -7px;
     margin-right: 13px;
     text-align: end;
     position: relative;
     font-size: 10px;
+}
+
+.footer {
+    margin-top: 300px;
+    position: absolute;
+    width: 411px;
+    height: 8px;
+    background: #333333;
+}
+
+/*Inicio da estilização do responsivo*/
+@media (min-width:768px) {
+
+    body {
+        width: 768px;
     }
-    .footer{
-        margin-top: 300px;
-        position: absolute;
-        width: 411px;
-        height: 8px;
-        background: #333333;
+
+    .box-main {
+        width: 768px;
+        height: 1024px;
     }
- /*Inicio da estilização do responsivo*/
-    @media (min-width:768px){
 
-        body{
-            width: 768px;
-        }
+    .box-top {
+        width: 768px;
+        height: 60px;
+    }
 
-       .box-main{
-           width: 768px;
-           height: 1024px;
-       }
-
-       .box-top{
-           width: 768px;
-           height: 60px;
-       }
-
-       nav{
+    nav {
         width: 252px;
         height: 1000px;
         left: -1115px;
-       }
+    }
 
-       input[type="checkbox"]:checked ~ nav {
+    input[type="checkbox"]:checked~nav {
         transform: translateX(1201px);
     }
-    .text-menu{
+
+    .text-menu {
         size: 20px;
         margin-left: 313px;
     }
 
-    #img-menu{
+    #img-menu {
         margin-right: 20px;
         margin-top: 19px;
     }
 
-/*Inicio da estilização do form para responsivo*/
-     .box-secundary{
+    /*Inicio da estilização do form para responsivo*/
+    .box-secundary {
         width: 728px;
         height: 189px;
         border: 1px solid #979797;
@@ -257,14 +282,15 @@ th, td{
         margin-bottom: 130px;
         margin-left: 20px;
         margin-top: 20px;
-     }
+    }
 
-     .text-form{
-         display: block;
-         font-size: 18px;
-         margin-top: 20px;
-     }
-    .form-box{
+    .text-form {
+        display: block;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .form-box {
         position: relative;
         width: 100%;
         height: 50%;
@@ -275,21 +301,24 @@ th, td{
         margin-top: -30px;
         margin-left: -18px;
     }
-    #label-secundary{
+
+    #label-secundary {
         margin-top: 0px;
         margin-left: 5px;
         font-size: 14px;
         position: relative;
         left: 40px;
     }
-    #transaction{
+
+    #transaction {
         width: 150px;
         height: 34px;
         margin-left: -70px;
         margin-top: 70px;
         margin-right: 15px;
     }
-    #label-two{
+
+    #label-two {
         margin-left: 0px;
         margin-top: 0px;
         top: 1px;
@@ -297,18 +326,21 @@ th, td{
         left: -8px;
         font-size: 14px;
     }
-    #merchandise{
+
+    #merchandise {
         margin-right: 15px;
         width: 348px;
         height: 32px;
         margin-left: -82px;
         margin-top: 70px;
     }
+
     #label-three {
         margin-left: 0px;
         margin-top: 0px;
     }
-    #price{
+
+    #price {
         width: 150px;
         height: 32px;
         margin-left: -40px;
@@ -319,7 +351,7 @@ th, td{
 
     }
 
-    #submit{
+    #submit {
         width: 200px;
         top: 15px;
         left: 486px;
@@ -327,246 +359,262 @@ th, td{
     }
 
     /*Inicio da 3º parte com tabelas*/
- 
-    hr{
+
+    hr {
         display: none;
     }
 
-    #box-table{
+    #box-table {
         position: relative;
         bottom: 70px;
     }
 
-    table{
+    table {
         width: 728px;
         height: 281px;
     }
 
-    .valor-1, .valor-2{
+    .valor-1,
+    .valor-2 {
         text-align: end;
     }
 
-    .tr-alt{
+    .tr-alt {
         height: 10px;
     }
-    #none-line{
+
+    #none-line {
         position: relative;
         bottom: 45px;
     }
-    .valor-2{
+
+    .valor-2 {
         position: relative;
         left: 0px;
         top: -4px;
     }
-    h1{
+
+    h1 {
         position: relative;
         left: 27px;
     }
-    .lucro{
+
+    .lucro {
         position: relative;
         bottom: 100px;
         right: 3px;
     }
-    .footer{
+
+    .footer {
         width: 100%;
     }
 }
 
 /*Inicio do Responsivo tablet landscape*/
 
-@media (min-width:1112px){
-    .box-main{
+@media (min-width:1112px) {
+    .box-main {
         width: 1112px;
         height: 834px;
     }
-    .box-top{
+
+    .box-top {
         width: 1112px;
         height: 80px;
         background: #E0E0E0;
     }
-    .logo-top{
+
+    .logo-top {
         position: relative;
         left: 5px;
         top: 9px;
         width: 40px;
         height: 37px;
     }
-    .text-menu{
+
+    .text-menu {
         size: 20px;
         margin-left: 80px;
         margin-top: 28px;
     }
-    
-    nav{
+
+    nav {
         margin-top: 0px;
         width: 350px;
         height: 40px;
         left: -30px;
         background: #FFFFFF;
     }
-    ul{
+
+    ul {
         display: flex;
         position: relative;
         top: 0px;
         left: -15px;
-        
+
     }
 
-    li{
-        
+    li {
+
         border-right: 1px solid #979797;
     }
 
-    a{
+    a {
         padding: 0px;
         display: flex;
         text-align: center;
         color: #333333;
         font-size: 16px;
     }
-    .three-li{
-    border: none;
-    margin-left: 20px;
-    margin-top: 10px;
+
+    .three-li {
+        border: none;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 
-    a:hover{
+    a:hover {
         background: none;
     }
-    
-    input[type="checkbox"]:checked ~ nav {
+
+    input[type="checkbox"]:checked~nav {
         transform: translateX(0px);
+    }
+
+    #img-menu {
+        display: none;
+    }
+
+    /*Inicio da estilização do box-secundary*/
+
+    .box-secundary {
+        width: 400px;
+        height: 344px;
+    }
+
+    .form-box {
+        position: relative;
+        width: 370.2px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        left: 10px;
+    }
+
+    #label-secundary {
+        margin-top: 0px;
+        margin-left: 5px;
+        font-size: 14px;
+        position: relative;
+        left: -100px;
+        top: 30px;
+
+    }
+
+    #transaction {
+        position: absolute;
+        width: 370px;
+        height: 32px;
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-left: 65px;
+    }
+
+    #label-two {
+        right: 116px;
+        top: 40px;
+        left: inherit;
+    }
+
+    #merchandise {
+        margin-right: 0px;
+        width: 370px;
+        height: 32px;
+        margin-left: 67px;
+        margin-top: 28px;
+    }
+
+    #label-three {
+        font-size: 14px;
+        position: relative;
+        right: 130px;
+        bottom: 30px;
+        ;
+    }
+
+    #price {
+        width: 370px;
+        height: 32px;
+        margin-left: 0px;
+        margin-top: 0px;
+        left: 36px;
+        top: -38px;
+        position: relative;
+        font-size: 14px;
+    }
+
+    #submit {
+        left: -4px;
+        top: -50px;
+        width: 370px;
+    }
+
+    /*Inicio da 3ºparte com tabelas*/
+
+    .table-one {
+        width: 652px;
+        height: 281px;
+        top: -405px;
+        left: 440px;
+        position: absolute;
+    }
+
+    table {
+        width: 652px;
+        height: 280px;
+    }
+
+    #none-line {
+        bottom: 25px;
+    }
+
+    .lucro {
+        bottom: 60px;
+        right: -38px;
+    }
 }
 
-#img-menu{
-    display: none;
-}
-
-/*Inicio da estilização do box-secundary*/
-
-.box-secundary{
-    width: 400px;
-    height: 344px;
-}
-
-.form-box{
-    position: relative;
-    width: 370.2px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-}
-
-h1{
-    left: 10px;
-}
-
-#label-secundary{
-    margin-top: 0px;
-    margin-left: 5px;
-    font-size: 14px;
-    position: relative;
-    left: -100px;
-    top: 30px;
-
-}
-
-#transaction{
-    position: absolute;
-    width: 370px;
-    height: 32px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-left: 65px;
-}
-
-#label-two{
-    right: 116px;
-    top: 40px;
-    left: inherit;
-}
-
-#merchandise{
-    margin-right: 0px;
-    width: 370px;
-    height: 32px;
-    margin-left: 67px;
-    margin-top: 28px;   
-}
-
-#label-three{
-    font-size: 14px;
-    position: relative;
-    right: 130px;
-    bottom: 30px;;
-}
-
-#price{
-    width: 370px;
-    height: 32px;
-    margin-left: 0px;
-    margin-top: 0px;
-    left: 36px;
-    top: -38px;
-    position: relative;
-    font-size: 14px;
-}
-
-#submit{
-    left: -4px;
-    top: -50px;
-    width: 370px;
-}
-
-/*Inicio da 3ºparte com tabelas*/
-
-.table-one{
-    width: 652px;
-    height: 281px;
-    top: -405px;
-    left: 440px;
-    position: absolute;
-}
-
-table{
-    width: 652px;
-    height: 280px;
-}
-
-#none-line{
-    bottom: 25px;
-}
-.lucro{
-    bottom: 60px;
-    right: -38px;
-}
-}
 /*Inicio do responsivo do modo desktop*/
 
-@media (min-width:1500px){
-    .box-main{
+@media (min-width:1500px) {
+    .box-main {
         width: 1500px;
         height: 1000px;
     }
 
-    .box-top{
+    .box-top {
         width: 1500px;
     }
 
-    .logo-top{
+    .logo-top {
         margin-left: 180px;
     }
-    .text-menu{
+
+    .text-menu {
         margin-left: 260px;
 
     }
 
-    nav{
+    nav {
         left: -190px;
     }
-section{
-    position: relative;
-    left: 190px;
-}
+
+    section {
+        position: relative;
+        left: 190px;
+    }
 
 }
