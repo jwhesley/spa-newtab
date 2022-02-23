@@ -375,6 +375,9 @@ th, td{
 /*Inicio do Responsivo tablet landscape*/
 
 @media (min-width:1112px){
+    body{
+        width: 1112px;
+    }
     .box-main{
         width: 1112px;
         height: 834px;
@@ -541,9 +544,10 @@ table{
     bottom: 60px;
     right: -38px;
 }
+}
 /*Inicio do responsivo do modo desktop*/
-
-@media (min-width:1500px){
+@media(min-width:1500px) {
+    
     .box-main{
         width: 1500px;
         height: 1000px;
@@ -568,5 +572,4 @@ table{
     position: relative;
     left: 190px;
 }
-
 }
