@@ -376,7 +376,7 @@ th, td{
 
 @media (min-width:1112px){
     body{
-        width: 1112px;
+        width: 100%;
     }
     .box-main{
         width: 1112px;
