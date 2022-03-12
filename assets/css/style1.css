@@ -15,6 +15,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background: #E0E0E0;
+    width: 411px;
     height: 60px;
 }
 
@@ -43,7 +44,9 @@ body{
 
 /*Inicio da estilização do Menu, o objetivo foi esconder o menu apenas com css*/
 
-
+.menu{
+    height: 100vh;
+}
 a{
     text-decoration: none;
     color: black;

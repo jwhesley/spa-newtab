@@ -2,10 +2,17 @@
     padding: 0px;
     margin: 0px;
 }
+html{
+    height: 100%;
+}
 
 body{
     font-family: 'Lato';
+    height: 100%;
+}
 
+header{
+    height: 100%;
 }
 
 #content-top{
@@ -30,4 +37,58 @@ body{
 #img-menu{
     margin-right: 20px;
     margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    position: absolute;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+/*NAV está com display none pois não consegui mostrar ele quando ocultado*/
+#nav{ 
+    display: none;
+    background-color: #333333;
+    width: 351px;
+    height: 100%;
+    bottom: 60px;
+    left:   60px;
+    position: relative;
+}
+
+
+
+ul{
+    position: absolute;
+    top: 62px;
+    width: 100%;
+}
+
+a{
+    padding: 10px;
+    display: block;
+    text-align: end;
+    color: white;
+    font-size: 16px;
+      
+}
+a:hover{
+    background-color: #c4c4c4;
+    color: #333333;
+}
+
+.label.one{
+    padding: 10px;
+    position: absolute;
+
+    
+}
+
+#close{
+    margin: 20px;
 }
