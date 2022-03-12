@@ -10,10 +10,8 @@ body{
     font-family: 'Lato';
     height: 100%;
 }
+/*Inicio da estilização do Header*/
 
-header{
-    height: 100%;
-}
 
 #content-top{
     width: 100%;
@@ -91,4 +89,10 @@ a:hover{
 
 #close{
     margin: 20px;
+}
+
+/*Inicio da estilização do form*/
+.box-secundary{
+    display: flex;
+    flex-direction: column;
 }
