@@ -92,7 +92,32 @@ a:hover{
 }
 
 /*Inicio da estilização do form*/
-.box-secundary{
-    display: flex;
-    flex-direction: column;
+.form{
+    margin-top: 20px;
+}
+
+#title{
+    display: none;
+}
+
+fieldset{
+    border: none;
+}
+
+#transaction, #merchandise, #price{
+    width: 90%;
+    height: 28px;
+    max-width: 371px;
+    margin: 5px 20px;
+    border-color: 1px solid #979797;
+
+}
+
+#label-secundary, #label-two, #label-three{
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+.campo{
+    margin-bottom: 15px;
 }
