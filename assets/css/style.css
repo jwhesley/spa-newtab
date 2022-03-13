@@ -24,8 +24,8 @@ body{
 .logo{
     width: 30px;
     height: 27.63px;
-    margin-left: 20px;
-    margin-top: 12px;
+    margin-left: 30px;
+    margin-top: 16px;
 }
 .text-menu{
     font-size: 20px;
@@ -34,7 +34,7 @@ body{
 
 #img-menu{
     margin-right: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
@@ -94,6 +94,7 @@ a:hover{
 /*Inicio da estilização do form*/
 .form{
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 #title{
@@ -104,20 +105,63 @@ fieldset{
     border: none;
 }
 
-#transaction, #merchandise, #price{
-    width: 90%;
+#transaction, #merchandise, #price, #submit{
+    width:100%;
     height: 28px;
-    max-width: 371px;
-    margin: 5px 20px;
-    border-color: 1px solid #979797;
+    color: #c4c4c4;
+    margin-top: 4px;
+    max-width: 95%;
+}
 
+input, select{
+    border: 1px solid #979797;
+    background: none;
+    border-radius: 3px;
 }
 
 #label-secundary, #label-two, #label-three{
-    margin-left: 20px;
     font-size: 14px;
 
 }
 .campo{
     margin-bottom: 15px;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: #333333;
+    color: white;
+}
+
+hr{
+    width: 89%;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+/*Inicio da 3º parte com tabelas*/
+
+#box-table{
+    margin-top: 40px;
+}
+
+.cab-table{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.table-one{
+    margin-left: 30px;
+}
+
+th{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+td{
+
 }
