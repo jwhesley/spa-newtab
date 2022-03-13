@@ -134,9 +134,9 @@ input, select{
 }
 
 hr{
-    width: 89%;
+    width:90%;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
 
 }
 
@@ -152,9 +152,6 @@ hr{
     margin-bottom: 10px;
 }
 
-.table-one{
-    margin-left: 30px;
-}
 
 th{
     text-align: justify;
@@ -162,6 +159,28 @@ th{
     font-size: 14px;
 }
 
-td{
+th, td{  
+    border-bottom: thin solid #979797;
 
 }
+
+tr{
+    text-align: justify;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.price, .total{
+    text-align: end;
+}
+
+.valor-1{
+    text-align: center;
+}
+
+
