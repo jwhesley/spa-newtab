@@ -123,7 +123,7 @@ input, select{
     font-size: 14px;
 
 }
-.campo{
+.campo-1, .campo-2, .campo-3{
     margin-bottom: 15px;
 }
 
@@ -236,22 +236,62 @@ table{
 
 @media (min-width:768px){
 
-    #title{
-        display: block;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 20px;
+#title{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
     }
 
-    .form{
-        width:95%;
-        height: 190px;
-        border:1px solid #979797;
-        border-radius: 4px;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
-
-
+.form{
+    width: 94%;
+    height: 190px;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 27px;
+    position: relative;
 }
 
+.grup{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.campo-1, .campo-3{
+    width: 25%;
+    margin-right: 20px;
+}
+
+
+.campo-2{
+    width: 50%;
+}
+
+.botao{
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+}
+
+hr{
+    display: none;
+}
+
+.table-one{
+    width: 103%;
+    height: 281px;
+    margin-left: 15px;
+}
+
+.valor-1{
+    text-align:end;
+    left: 0px;
+}
+
+.lucro{
+    right: 45px;
+    position: relative;
+}
+}
