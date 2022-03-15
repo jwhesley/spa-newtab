@@ -224,3 +224,34 @@ table{
     margin-right: 30px;
     margin-top: -10px;
 }
+
+.footer{
+    width: 100%;
+    height: 8px;
+    background-color: #333333;
+    margin-top: 60px;
+}
+
+/*Inicio do responsivo 768px*/
+
+@media (min-width:768px){
+
+    #title{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .form{
+        width:95%;
+        height: 190px;
+        border:1px solid #979797;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+
+}
+
