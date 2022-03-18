@@ -91,6 +91,7 @@ a:hover{
     margin: 20px;
 }
 
+
 /*Inicio da estilização do form*/
 .form{
     margin-top: 20px;
@@ -229,12 +230,13 @@ table{
     width: 100%;
     height: 8px;
     background-color: #333333;
-    margin-top: 60px;
+    margin-top: 100%;
 }
 
 /*Inicio do responsivo 768px*/
 
 @media (min-width:768px){
+
 
 #title{
     display: block;
@@ -302,8 +304,74 @@ table{
 /*Inicio do responsivo do 1112px*/
 
 @media (min-width:1112px){
+    #complete-box{
+        display: flex;
+    }
+
+
     .grup{
         display: flex;
         flex-direction: column;
     }
+
+    section{
+        width: 100%;
+    }
+
+    .form{
+        width: 70%;
+        height: 344px;
+    }
+
+
+    .campo-1, .campo-2, .campo-3{
+        width: 100%;
+        margin-left: -6px;
+    }
+    .botao{
+        width: 93%;
+    }
+    .cab-table {
+        margin-left: 190px;
+    }
+
+    .lucro{
+        left: 168px;
+
+    }
+    table{
+        width: 115%;
+    }
+    #submit{
+        margin-left: 17px;
+    }
+
+    .table-one{
+        width: 100%;
+        margin-left: -170px;
+    }
+
+    .text-menu{
+        margin-left: 20px;
+    }
+
+    #nav{
+        display: flex;
+        background-color: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #img-menu{
+        display: none;
+    }
+
+    a{
+        color: #333333;
+        font-size: 16px;
+    }
+    #close{
+        display: none;
+    }
+    
 }
