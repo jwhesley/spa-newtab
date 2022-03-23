@@ -340,7 +340,7 @@ table{
 
     }
     table{
-        width: 115%;
+        width: 100%;
     }
     #submit{
         margin-left: 17px;
@@ -354,14 +354,19 @@ table{
     .text-menu{
         margin-left: 20px;
     }
+    header{
+        display: flex;
+    }
 
     #nav{
         display: flex;
         background-color: none;
-        width: 100%;
-        height: 100%;
+        width: 50%;
     }
-    
+    ul{
+        display: flex;
+        flex-direction: row;
+    }   
     #img-menu{
         display: none;
     }
