@@ -359,16 +359,26 @@ table{
     }
 
     #nav{
-        display: flex;
+        display: block;
         background-color: none;
         width: 50%;
+        left: 0px;
+    
     }
     ul{
         display: flex;
         flex-direction: row;
+        background: white;
+        width: 53%;
+        top: 70px;
+        left: 240px;
     }   
     #img-menu{
         display: none;
+    }
+
+    #border-opc{
+        border-right: 1px solid #333333;
     }
 
     a{
