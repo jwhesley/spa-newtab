@@ -340,7 +340,8 @@ table{
 
     }
     table{
-        width: 100%;
+        width: 112%;
+        margin-left: 70px;
     }
     #submit{
         margin-left: 17px;
@@ -378,7 +379,8 @@ table{
     }
 
     #border-opc{
-        border-right: 1px solid #333333;
+        border-right: thin solid #979797;
+    
     }
 
     a{
@@ -387,6 +389,31 @@ table{
     }
     #close{
         display: none;
+    }   
+}
+
+/*Inicio do responsivo do 1500px*/
+
+@media (min-width:1500px){
+    header{
+        background: #E0E0E0;
+        width: 100%;
     }
-    
+
+    #content-top{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #complete-box{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    ul{
+        width: 57%;
+        left: 195px;
+    }
+
+
 }
