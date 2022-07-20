@@ -27,7 +27,7 @@
                   <nav>
                         <ul>
                             <li><a id="border-opc" href="">Cadastro de transações</a></li>
-                            <li><a href="">Limpar dados</a></li>
+                            <li><a id="limparDados" href="">Limpar dados</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="campo-2">
                     <label id="label-two" for="merchandise">Mercadoria</label>
                 </br>
-                    <input type="text" id="merchandise" name="merchandise">
+                    <input type="text" id="merchandise" name="merchandise" required>
                 </div>
             <div class="campo-3">                
                     <label id="label-three" for="price">Preço</label>
@@ -62,7 +62,7 @@
             </div>
         </div>
             <div class="botao">
-                <input type="button" id="submit" name="submit" value="Adicionar Transação">
+                <button type="submit" id="submit" name="submit">Adicionar Transação</button>
             </div> 
             </form>
           
@@ -106,5 +106,6 @@
 </div>
         <div class="footer"></div>
         </div>
+<script src="./js/main.js"></script>
     </body>
 </html>
